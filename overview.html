@@ -148,7 +148,7 @@
                 <div id="content" class="content">
                     <main>
                         <h1><a class="header" href="#overview" id="overview">Overview</a></h1>
-<p>Rash is a declarative shell scripting tool oriented to build containers entrypoints.
+<p>Rash is a declarative shell scripting tool oriented to build container entrypoints.
 <code>rash</code> syntax is inspired by <a href="https://www.ansible.com/">Ansible</a>.</p>
 <h2><a class="header" href="#quickstart" id="quickstart">Quickstart</a></h2>
 <p>To start using <code>rash</code> you just need a container with entrypoint.
@@ -171,6 +171,10 @@ ENTRYPOINT [&quot;/entrypoint.rh&quot;]
   # transforms process in pid 1 (similar to `exec` in bash)
   transfer_pid_1: true
 </code></pre>
+<h2><a class="header" href="#who-is-using-rash" id="who-is-using-rash">Who is using <code>rash</code></a></h2>
+<ul>
+<li>A production ready <a href="https://github.com/dcarrillo/docker-phpfpm">php-fpm</a> docker image</li>
+</ul>
 
                     </main>
 
